@@ -28,21 +28,14 @@ $(document).ready(function() {
         }
         return false;
     });
-	$(".event-calendar td").mouseenter(function(){  
+	$(".event-calendar td").mouseenter(function(){
         $(this).find($('.event-calendar td .tooltip')).stop(true, true).fadeIn(600);
         return false;
      });
-      $('.event-calendar td').mouseleave(function(){  
+      $('.event-calendar td').mouseleave(function(){
         $(this).find($('.event-calendar td .tooltip')).stop(true, true).fadeOut(400);
         return false;
      });
-
-  // Filterable/sortable gallery
-  var $container = $('.sortable-grid').imagesLoaded( function() {
-    $container.isotope({
-      itemSelector: '.grid-item'
-    });
-  });
 
   $('.filter-controls a').click(function(e){
     $(this).addClass("selected");
@@ -52,8 +45,8 @@ $(document).ready(function() {
      e.preventDefault();
   });
 
-      
-}); 
+
+});
 $(window).resize(function() {
     if($(document).width() > 768){
       $( "#nav" ).addClass("active");
