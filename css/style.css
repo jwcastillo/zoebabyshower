@@ -7,7 +7,7 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -19,7 +19,7 @@ time, mark, audio, video {
 	outline: none;
 }
 
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -47,22 +47,22 @@ table {
 	border-spacing: 0;
 }
 
-a[href], label[for], select, 
+a[href], label[for], select,
 input[type=checkbox], input[type=radio] {
 	cursor: pointer;
 }
 
-button, input[type=button], input[type=image], 
+button, input[type=button], input[type=image],
 input[type=reset], input[type=submit] {
 	padding: 0;
 	overflow: visible;
 	cursor: pointer;
 }
 
-button::-moz-focus-inner, 
-input[type=button]::-moz-focus-inner, 
-input[type=image]::-moz-focus-inner, 
-input[type=reset]::-moz-focus-inner, 
+button::-moz-focus-inner,
+input[type=button]::-moz-focus-inner,
+input[type=image]::-moz-focus-inner,
+input[type=reset]::-moz-focus-inner,
 input[type=submit]::-moz-focus-inner {
 	border: 0;
 }
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ie7 .clearfix {
-	zoom: 1; 
+	zoom: 1;
 }
 
 strong {
@@ -118,7 +118,7 @@ abbr, acronym {
 	cursor: help;
 }
 
-sub, 
+sub,
 sup {
 	position: relative;
 	font-size: 75%;
@@ -150,7 +150,7 @@ body {
 	font-size: 15px;
 	color: #9e9994;
 	background: #fffbf7;
-	-webkit-text-size-adjust: none; 
+	-webkit-text-size-adjust: none;
 }
 
 input, textarea, select, button {
@@ -324,6 +324,13 @@ input.white[type=submit]:hover{
 	text-align: left;
 	text-shadow: 2px 2px 3px #ce5a5d;
 	color: #ea6b6e;
+}
+.promo h3 {
+	font-family: 'Gochi Hand';
+	font-size: 48px;
+	text-align: left;
+	text-shadow: 2px 2px 3px #90c6d3;
+	color: #a1d7e4;
 }
 .slide-info a:hover {
 	text-decoration: none;
@@ -601,7 +608,7 @@ input.white[type=submit]:hover{
 	position: relative;
 }
 .event-calendar .event-tooltip::after {
-	content: ''; 
+	content: '';
 	position: absolute;
 	right: -16px;
 	top: 78px;
@@ -1120,7 +1127,7 @@ input.white[type=submit]:hover{
 	color: #4e87a0;
 }
 
-.form-newsletter input[type=email]:-ms-input-placeholder {  
+.form-newsletter input[type=email]:-ms-input-placeholder {
 	color: #4e87a0;
 }
 .form-newsletter .btn {
@@ -1319,7 +1326,7 @@ input.white[type=submit]:hover{
 	}
 	#nav ul li {
 		display:block;
-		padding: 0;	
+		padding: 0;
 	}
 	#nav ul a {
 		display:block;
@@ -1734,11 +1741,10 @@ input.white[type=submit]:hover{
 		background-image: url(../images/ico_facebook-red@2x.png);
 		background-size: 16px 16px;
 	}
-	
+
 	@media only screen and (max-width : 480px) {
 		.news .box .mask {
 			background-size: 300px 135px;
 		}
 	}
 }
-
