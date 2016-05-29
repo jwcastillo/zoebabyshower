@@ -320,14 +320,14 @@ input.white[type=submit]:hover{
 }
 .promo h1 {
 	font-family: 'Gochi Hand', cursive;
-	font-size: 48px;
+	font-size: 40px;
 	text-align: left;
 	text-shadow: 2px 2px 3px #ce5a5d;
 	color: #ea6b6e;
 }
 .promo h3 {
 	font-family: 'Gochi Hand';
-	font-size: 48px;
+	font-size: 40px;
 	text-align: left;
 	text-shadow: 2px 2px 3px #90c6d3;
 	color: #a1d7e4;
@@ -350,7 +350,7 @@ input.white[type=submit]:hover{
 .slide-info {
 	width: 470px;
 	position: absolute;
-	top: 125px;
+	top: 80px;
 	left: 50%;
 }
 .slide-info p {
