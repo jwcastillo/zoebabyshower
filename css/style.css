@@ -126,11 +126,6 @@ input[type=tel], input[type=url], input[type=password], input[type=text], input[
 /* Normalized Styles
 ------------------------------------------------------------------------------*/
 
-html {
-  background-image: url(../images/pattenr.jpeg);
-  background-repeat: repeat-x
-}
-
 body {
   font-family: 'Arvo', serif;
   font-size: 15px;
@@ -138,7 +133,19 @@ body {
   /*background: #fffbf7;*/
   -webkit-text-size-adjust: none;
   background: rgba(255, 255, 255, 0.7);
-  width: 100vh;
+}
+
+body::after {
+  content: "";
+  background-image: url(../images/pattenr.jpeg);
+  background-repeat: repeat-x;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 input, textarea, select, button {
