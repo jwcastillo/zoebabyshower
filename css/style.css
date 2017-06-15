@@ -126,12 +126,18 @@ input[type=tel], input[type=url], input[type=password], input[type=text], input[
 /* Normalized Styles
 ------------------------------------------------------------------------------*/
 
+html {
+  background-image: url(../images/pattenr.jpeg);
+  background-repeat: repeat-x
+}
+
 body {
   font-family: 'Arvo', serif;
   font-size: 15px;
-  color: #9e9994;
-  background: #fffbf7;
+  color: #382e0d;
+  /*background: #fffbf7;*/
   -webkit-text-size-adjust: none;
+  background: rgba(255, 255, 255, 0.7);
 }
 
 input, textarea, select, button {
